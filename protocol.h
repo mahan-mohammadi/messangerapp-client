@@ -2,7 +2,7 @@
 #define PROTOCOL_H
 
 enum Protocol {
-	//temp
+	REG , LOG , MSG , WHO , 
 };
 
 #endif
