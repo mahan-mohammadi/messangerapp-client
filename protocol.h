@@ -2,7 +2,7 @@
 #define PROTOCOL_H
 
 enum Protocol {
-	REG , LOG , MSG , WHO , 
+	REG , LOG , MSG , WHO , UNAMECHECK , UNAMEANSWER ,  PHONECHECK , PHONEANSWER
 };
 
 #endif
