@@ -1,8 +1,8 @@
 #include <iostream>
 #include "date.h"
 #include <string>
-#include "person.h"
-#include "encdec.h"
+#include "encdec.h";
+#include "user.h"
 
 using namespace std;
 

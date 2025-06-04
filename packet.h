@@ -18,7 +18,7 @@ public:
 	User getSender();
 	void setProtocol(Protocol);
 	Protocol getProtocol();
-	void send();
+	virtual void send();
 };
 
 #endif

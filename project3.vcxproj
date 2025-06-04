@@ -142,6 +142,7 @@
     <ClInclude Include="packet.h" />
     <ClInclude Include="person.h" />
     <ClInclude Include="protocol.h" />
+    <ClInclude Include="register.h" />
     <ClInclude Include="user.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

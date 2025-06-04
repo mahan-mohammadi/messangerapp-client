@@ -27,6 +27,6 @@ Protocol Packet::getProtocol() {
 	return protocol;
 }
 
-void Packet::send() {
+virtual void Packet::send() {
 	// temp
 }
