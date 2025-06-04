@@ -5,20 +5,20 @@
 #include "user.h"
 #include "protocol.h"
 
-class packet {
+class Packet {
 private:
 	User sender;
 	Protocol protocol;
 
 public:
-	packet();
-	packet(User sender, Protocol type);
+	Packet();
+	Packet(User, Protocol);
 
-	void setSender(User sender);
+	void setSender(User);
 	User getSender();
-	void setProtocol(Protocol type);
+	void setProtocol(Protocol);
 	Protocol getProtocol();
 	void send();
-}
+};
 
 #endif

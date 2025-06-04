@@ -130,6 +130,7 @@
     <ClCompile Include="date.cpp" />
     <ClCompile Include="encdec.cpp" />
     <ClCompile Include="messanger.cpp" />
+    <ClCompile Include="packet.cpp" />
     <ClCompile Include="person.cpp" />
     <ClCompile Include="project3.cpp" />
     <ClCompile Include="user.cpp" />
