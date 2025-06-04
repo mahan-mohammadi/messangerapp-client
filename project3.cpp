@@ -6,16 +6,6 @@
 
 using namespace std;
 
-
-#include <iostream>
-#include "date.h"
-#include <string>
-#include "person.h"
-#include "user.h"
-#include "encdec.h"
-
-using namespace std;
-
 void registerMenu() {
     string firstName, familyName, username, password, confirmPassword, phone, displayName;
     int id, day, month, year;
