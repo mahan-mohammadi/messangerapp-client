@@ -14,5 +14,6 @@ public:
 	Register(User user , Protocol proto) : Packet(user , proto) {};
 
 	void send() override;
+
 };
 #endif

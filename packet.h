@@ -6,7 +6,7 @@
 #include "protocol.h"
 
 class Packet {
-private:
+protected:
 	User sender;
 	Protocol protocol;
 

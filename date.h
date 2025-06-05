@@ -59,6 +59,8 @@ public:
     void print0() const;
     void print1() const;
     void print2() const;
+
+    string toString();
 };
 
 #endif // DATE_H

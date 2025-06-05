@@ -1,7 +1,7 @@
 // Date.cpp
 #include "Date.h"
 #include <iostream>
-
+#include <sstream>
 using namespace std;
 
 // Helper function to calculate days in a month (simplified)
@@ -81,4 +81,11 @@ void Date::print1() const {
 
 void Date::print2() const {
     cout << static_cast<Months>(month) << " " << day << ", " << year;
+}
+
+string Date::toString() {
+
+    stringstream ss;
+    ss << day << "/" << month << "/" << year;
+    return ss.str(); 
 }

@@ -133,6 +133,7 @@
     <ClCompile Include="packet.cpp" />
     <ClCompile Include="person.cpp" />
     <ClCompile Include="project3.cpp" />
+    <ClCompile Include="register.cpp" />
     <ClCompile Include="user.cpp" />
   </ItemGroup>
   <ItemGroup>
