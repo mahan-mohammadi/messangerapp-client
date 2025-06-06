@@ -6,6 +6,11 @@
 
 using namespace std;
 
+int getNID() {
+
+	return id; 
+}
+
 void registerMenu() {
     string firstName, familyName, username, password, confirmPassword, phone, displayName;
     int id, day, month, year;
@@ -37,6 +42,7 @@ void registerMenu() {
     cin >> displayName;
 
 
+    
     Date birthday(month, day, year);
     User newUser(firstName, familyName, birthday, id, username, password, phone, displayName); //we should get the id ourselves from the server
 

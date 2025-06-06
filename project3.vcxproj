@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\..\Desktop\project3-server\utiltiy.cpp" />
     <ClCompile Include="date.cpp" />
     <ClCompile Include="encdec.cpp" />
     <ClCompile Include="messanger.cpp" />
@@ -137,6 +138,7 @@
     <ClCompile Include="user.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\..\Desktop\project3-server\utility.h" />
     <ClInclude Include="date.h" />
     <ClInclude Include="encdec.h" />
     <ClInclude Include="messanger.h" />
