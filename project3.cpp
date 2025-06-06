@@ -19,6 +19,7 @@ void registerMenu() {
     cout << "Enter messenger ID (username): ";
     cin >> username; // the username should be chekced to see if it is unique or not
 
+
     do {
         cout << "Enter password(it should be 8 characters long and have both numbers and alphabetic character: ";
         cin >> password;
@@ -34,6 +35,7 @@ void registerMenu() {
     cin >> phone; // it also should be unique
     cout << "Enter display name: ";
     cin >> displayName;
+
 
     Date birthday(month, day, year);
     User newUser(firstName, familyName, birthday, id, username, password, phone, displayName); //we should get the id ourselves from the server
