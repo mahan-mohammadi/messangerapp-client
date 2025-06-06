@@ -3,11 +3,20 @@
 #include <string>
 #include "encdec.h";
 #include "user.h"
-
+#include "protocol.h"
+#include "packet.h"
+#include "utility.h"
+#include <sstream>
 using namespace std;
 
 int getNID() {
-
+	Packet packet;
+    string message = protocolMap[LASTIDCALL];
+	sendAPacket(message);
+    string result = listenToSocket();
+	stringstream oss(result);
+	int id;
+    oss >> id;
 	return id; 
 }
 

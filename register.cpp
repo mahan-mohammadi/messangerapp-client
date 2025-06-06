@@ -3,6 +3,9 @@
 #include "user.h"
 #include "encdec.h"
 #include "utility.h"
+#include "utility"
+
+using namespace std;
 
 void Register::send() {
 	stringstream ss;
@@ -17,7 +20,7 @@ void Register::send() {
 
 	string message = ss.str();
 
-	sendAPacket();
+	sendAPacket(message);
 }
 
 
